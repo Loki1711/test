@@ -9,4 +9,4 @@ jobs:
       - name: Shut
         run: echo "Shutting down !!!"
       - name: Print Date
-        run: echo Current Date and Time is: `date +"%Y-%m-%d %T"`
+        run: echo "`date`"
