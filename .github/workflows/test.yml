@@ -8,3 +8,5 @@ jobs:
         run: echo "Hello World !!!"
       - name: Shut
         run: echo "Shutting down !!!"
+      - name: Print Date
+        run: Today's Date is $ date +"%A, %b %d, %Y %I:%M %p"
