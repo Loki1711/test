@@ -9,4 +9,4 @@ jobs:
       - name: Shut
         run: echo "Shutting down !!!"
       - name: Print Date
-        run: Today's Date is $ date +"%A, %b %d, %Y %I:%M %p"
+        run: echo "Today's Date is $ date +"%A, %b %d, %Y %I:%M %p""
